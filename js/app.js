@@ -16,7 +16,7 @@ const isLiked = (id) => {
 };
 
 const addToLiked = (id) => {
-  likedPostsId.plus(id);
+  likedPostsId.push(id); //like btn solve array push not plus
   showPosts(posts);
 };
 
