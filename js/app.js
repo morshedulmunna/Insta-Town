@@ -56,7 +56,6 @@ const switchTab = (id) => {
 
 const createPost = (post) => {
   const { image, userImage } = post; //solve Profile Picture Issue
-  const commentItem = post.comments;
   const div = document.createElement("article");
   div.classList.add("post");
   div.innerHTML = `
